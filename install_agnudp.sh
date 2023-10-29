@@ -1,12 +1,3 @@
-
-#!/bin/bash
-
-# Verificar si se está ejecutando como superusuario
-if [ "$EUID" -ne 0 ]
-  then echo "Por favor, ejecuta este script como superusuario"
-  exit
-fi
-
  #!/usr/bin/env bash
 #
 # Try `install_agnudp.sh --help` for usage.
